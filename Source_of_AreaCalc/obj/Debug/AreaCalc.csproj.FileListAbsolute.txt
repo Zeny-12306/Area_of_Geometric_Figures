@@ -51,3 +51,9 @@ C:\Git_Repositories\Area_of_Geometric_Figures\Source_of_AreaCalc\obj\Debug\AreaC
 C:\Git_Repositories\Area_of_Geometric_Figures\Source_of_AreaCalc\obj\Debug\AreaCalc.csproj.CoreCompileInputs.cache
 C:\Git_Repositories\Area_of_Geometric_Figures\Source_of_AreaCalc\obj\Debug\AeraCalc.exe
 C:\Git_Repositories\Area_of_Geometric_Figures\Source_of_AreaCalc\obj\Debug\AeraCalc.pdb
+<<<<<<< HEAD
+=======
+C:\Git_Repositories\Area_of_Geometric_Figures\Source_of_AreaCalc\bin\Debug\Tools_For_Translation.dll
+C:\Git_Repositories\Area_of_Geometric_Figures\Source_of_AreaCalc\bin\Debug\Tools_For_Translation.pdb
+C:\Git_Repositories\Area_of_Geometric_Figures\Source_of_AreaCalc\obj\Debug\AreaCalc.csproj.CopyComplete
+>>>>>>> dev
