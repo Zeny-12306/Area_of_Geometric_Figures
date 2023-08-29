@@ -1,12 +1,12 @@
 ﻿using System.Windows.Controls;
 using System.Windows;
+using Tools_For_Translation;
 
 namespace AeraCalc
 {
     public partial class Square : Page
     {
-        private const double cmtoinch = 0.393701;
-        private bool is_cm = true, is_inch = false;
+        private bool is_cm = true;
         public Square()
         {
             InitializeComponent();
@@ -14,13 +14,17 @@ namespace AeraCalc
 
         private void Getanswer(object sender, RoutedEventArgs e)
         {
-            double r = double.Parse(a.Text);
-            double res = r * r;
-            area.Text = res.ToString();
+            if (Tool.check_input(a.Text))
+            {
+                double a_val = double.Parse(a.Text);
+                double res = a_val * a_val;
+                area.Text = res.ToString("N3");
+            }
+            else area.Text = "Error! Input is invalid!";
         }
         private void Clear_Click(object sender, RoutedEventArgs e)
         {
-            // 清空radius
+            // 清空a
             a.Text = "";
             area.Text = "";
         }
@@ -32,41 +36,28 @@ namespace AeraCalc
         }
         private void ToCm_Click(object sender, RoutedEventArgs e)
         {
-            if (is_inch && area.Text != "面积")
-            {
-                double r = double.Parse(a.Text) / cmtoinch;
-                double res = r * r;
-                a.Text = r.ToString();
-                area.Text = res.ToString();
-                label1.Content = "cm";
-                label2.Content = "cm²";
-                is_inch = false;
-                is_cm = true;
-            }
-            else if (area.Text == "面积")
-            {
-                label1.Content = "cm";
-                label2.Content = "cm²";
-            }
+            if (is_cm) return;
+            is_cm = true;
+            label1.Content = "cm";
+            label2.Content = "cm²";
+            if (Tool.check_input(a.Text))
+                a.Text = Tool.ToCm(a.Text);
+            else
+                area.Text = "Error! Input is invalid!";
+            if (Tool.check_input(area.Text))
+                area.Text = Tool.ToCm(Tool.ToCm(area.Text));
         }
         private void ToInch_Click(object sender, RoutedEventArgs e)
         {
-            if (is_cm && area.Text != "面积")
-            {
-                double r = double.Parse(a.Text) * cmtoinch;
-                double res = r * r;
-                a.Text = r.ToString();
-                area.Text = res.ToString();
-                label1.Content = "inch";
-                label2.Content = "inch²";
-                is_inch = true;
-                is_cm = false;
-            }
-            else if (area.Text == "面积")
-            {
-                label1.Content = "inch";
-                label2.Content = "inch²";
-            }
+            if (!is_cm) return;
+            is_cm = false;
+            label1.Content = "inch";
+            label2.Content = "inch²";
+            if (Tool.check_input(a.Text))
+                a.Text = Tool.ToInch(a.Text);
+            else area.Text = "Error! Input is invalid!";
+            if (Tool.check_input(area.Text))
+                area.Text = Tool.ToInch(Tool.ToInch(area.Text));
         }
     }
 }

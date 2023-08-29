@@ -130,5 +130,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Tools_For_Translation\Tools_For_Translation.csproj">
+      <Project>{158f3f90-1eb8-4012-a4a7-2da660d00dcc}</Project>
+      <Name>Tools_For_Translation</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

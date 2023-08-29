@@ -25,3 +25,32 @@ D:\my program\primary programs files\homework\AeraCalc\obj\Debug\AeraCalc.exe
 D:\my program\primary programs files\homework\AeraCalc\obj\Debug\AeraCalc.pdb
 D:\my program\primary programs files\homework\AeraCalc\obj\Debug\AreaCalc.csproj.AssemblyReference.cache
 D:\my program\primary programs files\homework\AeraCalc\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Git_Repositories\Area_of_Geometric_Figures\Source_of_AreaCalc\bin\Debug\AeraCalc.exe.config
+C:\Git_Repositories\Area_of_Geometric_Figures\Source_of_AreaCalc\bin\Debug\AeraCalc.exe
+C:\Git_Repositories\Area_of_Geometric_Figures\Source_of_AreaCalc\bin\Debug\AeraCalc.pdb
+C:\Git_Repositories\Area_of_Geometric_Figures\Source_of_AreaCalc\obj\Debug\AreaCalc.csproj.AssemblyReference.cache
+C:\Git_Repositories\Area_of_Geometric_Figures\Source_of_AreaCalc\obj\Debug\MainPage.baml
+C:\Git_Repositories\Area_of_Geometric_Figures\Source_of_AreaCalc\obj\Debug\Circle.g.cs
+C:\Git_Repositories\Area_of_Geometric_Figures\Source_of_AreaCalc\obj\Debug\MainPage.g.cs
+C:\Git_Repositories\Area_of_Geometric_Figures\Source_of_AreaCalc\obj\Debug\MainWindow.g.cs
+C:\Git_Repositories\Area_of_Geometric_Figures\Source_of_AreaCalc\obj\Debug\Rect.g.cs
+C:\Git_Repositories\Area_of_Geometric_Figures\Source_of_AreaCalc\obj\Debug\Square.g.cs
+C:\Git_Repositories\Area_of_Geometric_Figures\Source_of_AreaCalc\obj\Debug\Trig.g.cs
+C:\Git_Repositories\Area_of_Geometric_Figures\Source_of_AreaCalc\obj\Debug\App.g.cs
+C:\Git_Repositories\Area_of_Geometric_Figures\Source_of_AreaCalc\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Git_Repositories\Area_of_Geometric_Figures\Source_of_AreaCalc\obj\Debug\AeraCalc_MarkupCompile.cache
+C:\Git_Repositories\Area_of_Geometric_Figures\Source_of_AreaCalc\obj\Debug\AeraCalc_MarkupCompile.lref
+C:\Git_Repositories\Area_of_Geometric_Figures\Source_of_AreaCalc\obj\Debug\Circle.baml
+C:\Git_Repositories\Area_of_Geometric_Figures\Source_of_AreaCalc\obj\Debug\MainWindow.baml
+C:\Git_Repositories\Area_of_Geometric_Figures\Source_of_AreaCalc\obj\Debug\Rect.baml
+C:\Git_Repositories\Area_of_Geometric_Figures\Source_of_AreaCalc\obj\Debug\Square.baml
+C:\Git_Repositories\Area_of_Geometric_Figures\Source_of_AreaCalc\obj\Debug\Trig.baml
+C:\Git_Repositories\Area_of_Geometric_Figures\Source_of_AreaCalc\obj\Debug\AeraCalc.g.resources
+C:\Git_Repositories\Area_of_Geometric_Figures\Source_of_AreaCalc\obj\Debug\AeraCalc.Properties.Resources.resources
+C:\Git_Repositories\Area_of_Geometric_Figures\Source_of_AreaCalc\obj\Debug\AreaCalc.csproj.GenerateResource.cache
+C:\Git_Repositories\Area_of_Geometric_Figures\Source_of_AreaCalc\obj\Debug\AreaCalc.csproj.CoreCompileInputs.cache
+C:\Git_Repositories\Area_of_Geometric_Figures\Source_of_AreaCalc\obj\Debug\AeraCalc.exe
+C:\Git_Repositories\Area_of_Geometric_Figures\Source_of_AreaCalc\obj\Debug\AeraCalc.pdb
+C:\Git_Repositories\Area_of_Geometric_Figures\Source_of_AreaCalc\bin\Debug\Tools_For_Translation.dll
+C:\Git_Repositories\Area_of_Geometric_Figures\Source_of_AreaCalc\bin\Debug\Tools_For_Translation.pdb
+C:\Git_Repositories\Area_of_Geometric_Figures\Source_of_AreaCalc\obj\Debug\AreaCalc.csproj.CopyComplete
